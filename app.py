@@ -7,6 +7,7 @@ Files = os.listdir("images")
 ChosenImage = None
 
 print("System started")
+#test
 
 while True:
     try:
