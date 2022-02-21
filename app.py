@@ -2,7 +2,7 @@ import os, random
 import time
 from instagrapi import Client
 InstagramClient = Client()
-InstagramClient.login("ros_patreon", "redomellow")
+InstagramClient.login("ros_patreon", "redacted")
 Files = os.listdir("images")
 ChosenImage = None
 
