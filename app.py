@@ -6,6 +6,8 @@ InstagramClient.login("ros_patreon", "redacted")
 Files = os.listdir("images")
 ChosenImage = None
 
+print("System started")
+
 while True:
     try:
         ChosenImage = random.choice(Files)
